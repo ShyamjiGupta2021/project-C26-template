@@ -40,7 +40,7 @@ function setup() {
   );
 
   board1 = new Board(width - 300, 330, 50, 200);
-  
+  board2 = new Board(width - 550, height - 300, 50, 200);
 }
 
 function draw() {
@@ -52,7 +52,7 @@ function draw() {
   playerArcher.display();
 
   board1.display();
-  
+  board2.display();
 
   for (var i = 0; i < playerArrows.length; i++) {
     if (playerArrows[i] !== undefined) {
